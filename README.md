@@ -84,5 +84,4 @@ I hope you liked this article on how to print colored output with Python by usin
 
 The body mass index is calculated by dividing an individual’s weight in kilograms by their height in meters, then dividing the answer again by their height. Now let’s see how to create a BMI calculator with Python:
 
-I hope you liked this article on how to calculate Body Mass Index/BMI with Python programming language. Feel free to ask your valuable questions in the comments section below.# ggg
-# ggg
+I hope you liked this article on how to calculate Body Mass Index/BMI with Python programming language. Feel free to ask your valuable questions in the comments section below.
