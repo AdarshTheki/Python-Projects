@@ -1,87 +1,129 @@
-<h1 align="center" > Python-Projects </h1>
+## ✅ **🔰 Basic Python Practice Questions (Foundational Concepts)**
 
-If I could give my former self one piece of advice when I was struggling to learn Python as a beginner, it would be this: **create more Python projects.**
+### 👉 Variables, Data Types & Operations
 
-### 1. Bike Rental System: 
+1. Write a Python program to swap two variables without using a third variable.
+2. What are mutable and immutable types in Python? Give examples.
+3. Write a program to check whether a number is odd or even.
+4. Write a program to find the largest of three numbers.
+5. Perform string slicing, and reverse a string using slicing.
+6. Create a list of numbers from 1 to 100 and print all even numbers.
 
-A bike rental or bike hire business rents out bicycles for short periods of time, usually for a few hours. Most rentals are provided by bike shops as a sideline to their main businesses of sales and service, but shops specialize in rentals.
+---
 
-**License:** This code is open source. So feel free to use, modify, share, download as per your need. I do not take risk nor responsibility for your errors or any commercial damage.
+### 👉 Control Flow (if, for, while)
 
-**How to run?** This code is written in python3.6.
+7. Write a program to calculate the factorial of a number using a for loop.
+8. Write a program to check if a number is prime or not.
+9. Write a program to print Fibonacci numbers up to the 10th term.
+10. Write a program that prints a multiplication table of a given number.
 
-Simply run
+---
 
-      python main.py
-      # or depending upon your config
-      python3 main.py
+### 👉 Functions
 
-### 2. Create Acronyms: 
+11. Write a function to calculate the square of a number.
+12. Create a function that returns whether a number is palindrome or not.
+13. Implement a function to calculate power of a number (x^y) without using built-in functions.
 
-**Approach :** The following steps are required:
+---
 
-- Take input as a string.
-- Add the first letter of string to output.
-- Iterate over the full string and add every next letter to space to output.
-- Change the output to uppercase(required acronym).
+### 👉 Data Structures (List, Tuple, Set, Dict)
 
-### 3. E-mail Slicer: 
+14. Remove duplicates from a list.
+15. Merge two dictionaries into one.
+16. Count frequency of elements in a list using a dictionary.
+17. Write a program to sort a list of dictionaries by a key.
+18. Perform set operations: union, intersection, difference.
 
-Email Slicer is nothing but just a tool which will take an email id as an input and will perform slicing operations on it to return the username and the domain of the email id.
+---
 
-    Example:
-    Input: rishabh.singh@gmail.com
-    Output: Your username is rishabh.singh & domain is gmail.com
+## ✅ **🚀 Intermediate Python Practice Questions**
 
-### 4. Story Generator:
+### 👉 File Handling
 
-**Now, the pertinent question is - How we will do so? Its answer is very simple :**
+19. Write a program to read a file line by line and print the content.
+20. Write a program to count the number of words in a file.
+21. Write a program to append text to an existing file.
 
-- We will first put the elements of the story in different lists.
-- Then we will use the random module to select random parts of the story collected in different lists.
-- And then concatenate them to make a story.
+---
 
-We will make use of 'random.choice()' function. Before starting, let's see an example of how 'random.choice()' works.
+### 👉 OOP (Object-Oriented Programming)
 
-### 5. Alarm Clock:-
+22. Create a class `Car` with attributes like brand, model, and methods to display details.
+23. Implement inheritance: Create a `Vehicle` class and inherit `Car` from it.
+24. Use encapsulation to make class attributes private.
 
-<b> How to Create an Alarm Clock with Python? </b>
+---
 
-As the title suggests, our task here is to write a python script that creates an alarm clock. For this task, I will be using the DateTime module in Python to create an alarm clock and the sound library in Python to play the alarm sound.
+### 👉 Exception Handling
 
-The DateTime module comes preinstalled in the Python programming language so you can easily import it in your program. The playsound library can be easily installed by using a pip command; pip install playsound. I hope you will be able to install it in your systems, now let’s see how to write a program to create an alarm with Python.
+25. Write a program to handle division by zero error.
+26. Write a program to handle multiple exceptions using try-except blocks.
 
-**Summary:** I hope you liked this article on how to write a program to create an alarm with Python. Feel free to ask your valuable questions in the comments section below.
+---
 
-### 6. Rock, Paper and Scissors Game 
+### 👉 List Comprehensions & Lambda
 
-To create the Rock, Paper and Scissors game with Python, we need to take the user’s choice and then we need to compare it with the computer choice which is taken using the random module in Python from a list of choices, and if the user wins then the score will increase by 1:
+27. Generate a list of squares of even numbers between 1 and 20 using list comprehension.
+28. Write a lambda function to check whether a number is even.
 
-Creating these types of games will help a beginner to think logically. You can even use this idea to make your own game. In the end, creating these types of programs will help you create your algorithms, which is a very important skill for coding interviews and competitive programming.
+---
 
-### 7. Dice Roll Simulator with Python
+### 👉 Modules & Packages
 
-To simulate a dice roll with Python, I’ll be using the random module in Python. The random module can be imported easily into your code as it is preinstalled in the Python programming language. 
+29. Write a Python script to import the math module and compute square root of a number.
+30. Write a custom module with functions for addition and subtraction, and import it in another script.
 
-After importing the random module, you have access to all the functions included in the module. It’s a pretty long list, but for our purposes, we’ll use the random.randint() function. This function returns a random integer based on the start and end we specify.
+---
 
-The smallest value of a dice roll is 1 and the largest is 6, this logic can be used to simulate a dice roll. This gives us the start and end values to use in our random.randint() function. Now let’s see how to simulate a dice roll with Python:
+## ✅ **💡 Advanced Python Practice Questions**
 
-### 8. QR Codes with Python: Tutorial
+### 👉 Generators & Iterators
 
-In this section, I will take you through a tutorial on how to generate QR codes with Python. To generate QR Codes with Python you need to install only one Python library for this task:
+31. Implement a generator function to yield first N Fibonacci numbers.
+32. Write a custom iterator class that iterates over even numbers up to N.
 
-- pip install pyqrcode
-Now let’s see how to create a QR Code with Python programming language:
+---
 
-### 9. Print Colored Text with Python
+### 👉 Decorators
 
-Traditionally, printing full-colour text to the terminal is accomplished by a series of escape characters on Linux or OS X systems. However, this will not work for Windows operating systems. Now let’s see how to print coloured text with Python using the Colorama module:
+33. Write a decorator to measure the execution time of a function.
+34. Write a decorator that prints "Start Function" before function execution and "End Function" after.
 
-I hope you liked this article on how to print colored output with Python by using the Colorama module. Feel free to ask your valuable questions in the comments section below.
+---
 
-### 10. BMI Calculator with Python
+### 👉 Multithreading & Multiprocessing
 
-The body mass index is calculated by dividing an individual’s weight in kilograms by their height in meters, then dividing the answer again by their height. Now let’s see how to create a BMI calculator with Python:
+35. Create a multi-threaded program that prints numbers 1 to 10 from two threads.
+36. Implement multiprocessing to compute squares of numbers from 1 to 10 in parallel.
 
-I hope you liked this article on how to calculate Body Mass Index/BMI with Python programming language. Feel free to ask your valuable questions in the comments section below.
+---
+
+### 👉 Regular Expressions
+
+37. Write a regex to validate an email address.
+38. Extract all phone numbers from a given text using regex.
+
+---
+
+### 👉 Working with JSON & APIs
+
+39. Write a program to read data from a JSON file.
+40. Write a simple program that makes an HTTP GET request to a public API (like [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)) and prints the response.
+
+---
+
+### 👉 Data Analysis Basics
+
+41. Read a CSV file using pandas and display the first 5 rows.
+42. Calculate mean, median, and standard deviation of a column in a DataFrame.
+43. Filter rows in a DataFrame where a column value is greater than X.
+
+---
+
+## ✅ **🔥 Bonus ML-Related Python Practice**
+
+44. Write a program to implement Linear Regression from scratch (without scikit-learn).
+45. Implement simple gradient descent to minimize a quadratic function.
+46. Write a NumPy program to perform matrix multiplication.
